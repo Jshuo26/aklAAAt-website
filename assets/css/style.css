@@ -1,0 +1,71 @@
+/* Base Styles */
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-dark);
+}
+
+/* Header */
+
+.site-header {
+  background-color: var(--white);
+  box-shadow: var(--shadow-sm);
+}
+
+.site-logo {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.site-logo:hover {
+  color: var(--primary-dark);
+}
+
+/* Main Content */
+
+.main-content {
+  min-height: 70vh;
+  padding: var(--space-xl) 0;
+}
+
+/* Footer */
+
+.site-footer {
+  background-color: var(--primary-dark);
+  color: var(--white);
+  padding: var(--space-xl) 0;
+}
+
+/* Utility Classes */
+
+.text-primary-brand {
+  color: var(--primary-color) !important;
+}
+
+.bg-primary-brand {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary-brand {
+  background-color: var(--secondary-color) !important;
+}
+
+.rounded-custom {
+  border-radius: var(--border-radius);
+}
+
+.shadow-custom {
+  box-shadow: var(--shadow-sm);
+}
