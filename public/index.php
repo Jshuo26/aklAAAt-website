@@ -1,3 +1,4 @@
 <?php
-echo "hello baks"
+echo "hello baks";
+echo "hello yow";
 ?>
